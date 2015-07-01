@@ -1,0 +1,8 @@
+Welcome, <%= session[:user_name] %>!
+
+Start a game
+<form action="/choose-shape" method="post">
+  <button type="submit" name="choice" value="rock">Rock</button>
+  <button type="submit" name="choice" value="paper">Paper</button>
+  <button type="submit" name="choice" value="scissors">Scissors</button>  
+</form>
